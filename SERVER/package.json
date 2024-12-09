@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "-": "^0.0.1",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "D": "^1.0.0",
+    "express": "^4.21.1",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^6.9.16",
+    "nodemon": "^3.1.7",
+    "path": "^0.12.7",
+    "socket.io": "^4.8.1",
+    "tailwindcss": "^3.4.16"
+  }
+}

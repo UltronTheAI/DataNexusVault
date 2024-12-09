@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DataNexusVault Dashboard</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/tailwindcss.js"></script>
+</head>
+<body>
+    <div class="container mx-auto mt-10">
+        <header class="text-center mb-5">
+            <h1 class="text-4xl font-bold">DataNexusVault Dashboard</h1>
+        </header>
+
+        <section id="login-section" class="mb-10">
+            <h2 class="text-2xl font-semibold mb-3">Login</h2>
+            <input type="text" id="token" placeholder="Enter your token" class="border px-4 py-2 rounded w-full mb-3">
+            <button id="login-button" class="bg-blue-500 text-white px-4 py-2 rounded">Login</button>
+        </section>
+
+        <section id="database-section" class="mb-10 hidden">
+            <h2 class="text-2xl font-semibold mb-3">Databases</h2>
+            <button id="list-databases" class="bg-blue-500 text-white px-4 py-2 rounded">List Databases</button>
+            <ul id="databases-list" class="mt-4 list-disc list-inside"></ul>
+        </section>
+
+        <section id="table-section" class="mb-10 hidden">
+            <h2 class="text-2xl font-semibold mb-3">Tables</h2>
+            <input type="text" id="database-name" placeholder="Enter database name" class="border px-4 py-2 rounded w-full mb-3">
+            <button id="list-tables" class="bg-green-500 text-white px-4 py-2 rounded">List Tables</button>
+            <ul id="tables-list" class="mt-4 list-disc list-inside"></ul>
+        </section>
+
+        <section id="data-section" class="mb-10 hidden">
+            <h2 class="text-2xl font-semibold mb-3">Table Data</h2>
+            <input type="text" id="table-name" placeholder="Enter table name" class="border px-4 py-2 rounded w-full mb-3">
+            <button id="view-data" class="bg-purple-500 text-white px-4 py-2 rounded">View Table Data</button>
+            <div id="table-data" class="mt-4 overflow-x-auto"></div>
+        </section>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>

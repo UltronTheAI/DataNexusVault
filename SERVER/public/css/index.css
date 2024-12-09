@@ -1,0 +1,16 @@
+/* Custom styles for DataNexusVault Dashboard */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+button {
+    cursor: pointer;
+}

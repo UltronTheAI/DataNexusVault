@@ -1,0 +1,10 @@
+{
+  "testuser": {
+    "email": "testuser@example.com",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3R1c2VyIiwiaWF0IjoxNzMzNjQwNjAwLCJleHAiOjE3MzM2NDQyMDB9.NTcoxw-dq3EUKRnguWXiWRzfSIRXdBSvyxodHaS2fVQ"
+  },
+  "your_username1": {
+    "email": "your_email@example.com",
+    "token": null
+  }
+}
